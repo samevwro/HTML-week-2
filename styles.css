@@ -1,5 +1,7 @@
 body {
     background-color: rgb(249, 249, 249);
+    max-width: 1200px;
+    margin: auto
 
 }
 #list-body {
@@ -18,7 +20,8 @@ header.header-board {
     border-width: 10px; 
     border-radius: 10px; 
     max-width: fit-content;
-    background-color: white
+    background-color: white;
+    padding: 1%;
 }
 #img-right {
     float: right;
@@ -66,9 +69,10 @@ tr:hover {
 form {
     border-style: solid;
     padding: 5px;
-    color: gray;
+    color: rgb(0, 0, 0);
     max-width: fit-content;
-    border-radius: 10px 
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.polaroid  {
     max-width: fit-content;
